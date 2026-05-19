@@ -1,10 +1,11 @@
 from qdrant_client import QdrantClient
 from qdrant_client.models import VectorParams, Distance
+from app.config import QDRANT_URL, QDRANT_API_KEY
 
 # Connect Qdrant
 client = QdrantClient(
-    host="localhost",
-    port=6333
+    url=QDRANT_URL,
+    api_key=QDRANT_API_KEY
 )
 
 def init_collection(collection_name: str, vector_size: int):
