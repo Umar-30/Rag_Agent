@@ -191,7 +191,7 @@ with st.sidebar:
     st.markdown("""
     <div style="background-color: #21262D; padding: 10px; border-radius: 8px; border-left: 4px solid #58A6FF; margin-bottom: 15px;">
         <span style="font-size: 0.9rem; color: #E0E0E0;">
-            <strong>Topic:</strong> General Knowledge / Document Analysis<br>
+            <strong>Topic:</strong> employee handbook / Document Analysis<br>
             <strong>Source:</strong> sample.pdf
         </span>
     </div>
@@ -200,9 +200,9 @@ with st.sidebar:
     st.subheader("📁 Document Management")
     
     # Pre-requisite Note
-    st.warning("⚠️ **Note:** Please 'Initialize' before asking questions to process the document embeddings.")
+    st.warning("⚠️ **Note:** Please 'Upload Docs' before asking questions to process the document embeddings.")
 
-    if st.button("Initialize Knowledge Base"):
+    if st.button("Upload document"):
         with st.spinner("Processing document embeddings..."):
             try:
                 # Adding a small delay for UI feel
