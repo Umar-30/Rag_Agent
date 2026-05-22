@@ -1,3 +1,13 @@
+   ---
+     title: Rag Agent
+     emoji: 🤖
+     colorFrom: blue
+     colorTo: green
+     sdk: docker
+     pinned: false
+     ---
+    
+
 # RAG Insight Assistant
 
 A professional, high-end Retrieval-Augmented Generation (RAG) application built with **FastAPI**, **Streamlit**, **Cohere**, and **Qdrant**.
