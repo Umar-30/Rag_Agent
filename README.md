@@ -1,12 +1,11 @@
-   ---
-     title: Rag Agent
-     emoji: 🤖
-     colorFrom: blue
-     colorTo: green
-     sdk: docker
-     pinned: false
-     ---
-    
+---
+title: Rag Agent
+emoji: 🤖
+colorFrom: blue
+colorTo: green
+sdk: docker
+pinned: false
+---
 
 # RAG Insight Assistant
 
